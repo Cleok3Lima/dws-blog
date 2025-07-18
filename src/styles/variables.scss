@@ -1,0 +1,53 @@
+// COLLORS
+// Neutrals
+$color-neutral-lightest: #f0f0f2;
+$color-neutral-extralight: #ede2e6;
+$color-neutral-light: #c0c2c8;
+$color-neutral-medium: #9ea0a5;
+$color-neutral-dark: #7f8185;
+$color-neutral-extradark: #5e5f63;
+$color-neutral-darkest: #202122;
+
+// Primary
+$color-primary-light: #0b0e3a;
+$color-primary-medium: #060725;
+$color-primary-dark: #020318;
+
+// Secondary
+$color-secondary-light: #ef4c84;
+$color-secondary-medium: #d31450;
+$color-secondary-dark: #8c1038;
+
+// Accent
+$color-accent-light: #00bfc1;
+$color-accent-medium: #009598;
+$color-accent-dark: #006c6e;
+
+$color-text-dark: #202122;
+$color-text-medium: #9ea0a5;
+$color-text-light: #f0f0f2;
+
+// FONTS
+// Font Family
+$font-primary: 'Open Sans', sans-serif;
+
+// Font Sizes
+$font-h1: 56px;
+$font-h2: 36px;
+$font-h3: 20px;
+$font-body-large: 16px;
+$font-body-small: 14px;
+$font-caption: 12px;
+
+// Line Heights
+$lh-default: 130%;
+$lh-body: 150%;
+
+// Font Weights
+$weight-regular: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+// UTILS
+$border-radius: 8px;
+$transition-fast: 0.2s ease-in-out;

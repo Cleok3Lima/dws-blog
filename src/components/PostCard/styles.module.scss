@@ -1,0 +1,87 @@
+.card {
+  background: $color-neutral-lightest;
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  color: $color-text-dark;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  max-width: 314px;
+  width: 100%;
+}
+
+.text {
+  padding: 16px;
+}
+
+.card img {
+  border-radius: 16px 16px 0 0;
+  max-height: 425px;
+  max-width: 314px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  font-size: $font-caption;
+  font-weight: $weight-regular;
+  line-height: $lh-default;
+  color: $color-neutral-extradark;
+}
+
+.dot {
+  align-self: center;
+  background-color: $color-secondary-medium;
+  border-radius: 50%;
+  display: block;
+  height: 5px;
+  margin: 0 8px;
+  width: 5px;
+}
+
+.title {
+  margin: 16px 0;
+}
+
+.content {
+  font-size: $font-caption;
+  font-weight: $weight-regular;
+  line-height: $lh-default;
+
+  @media (min-width: 768px) {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.contentCollapsed {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 229px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.category {
+  background-color: $color-neutral-light;
+  border-radius: 42px;
+  color: $color-neutral-extradark;
+  font-size: $font-caption;
+  font-weight: $weight-regular;
+  line-height: $lh-default;
+  margin-top: 16px;
+  padding: 8px 10px;
+  white-space: nowrap;
+}

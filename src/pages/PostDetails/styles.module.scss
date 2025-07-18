@@ -1,0 +1,85 @@
+.container {
+  color: $color-neutral-darkest;
+  padding: 40px 24px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.backButton {
+  align-self: self-start;
+  background: none;
+  border-radius: 42px;
+  border: 1px $color-secondary-medium solid;
+  color: $color-secondary-medium;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 100px;
+  width: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: $font-caption;
+  margin-bottom: 24px;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.authorInfoDate {
+  color: $color-neutral-extradark;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  object-fit: cover;
+}
+
+.content {
+  font-size: $font-body-large;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+
+.divider {
+  margin: 32px 0;
+  border: 0;
+  height: 1px;
+  background: $color-neutral-light;
+}
+
+.latestTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.latestGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
