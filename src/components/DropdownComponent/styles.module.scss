@@ -1,0 +1,51 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+
+  &:first-child {
+    margin-right: 10px;
+  }
+}
+
+.control {
+  background-color: transparent;
+  border: 1px solid $color-secondary-medium;
+  border-radius: 42px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: $color-secondary-medium;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &.open {
+    background-color: rgba($color-secondary-medium, 0.1);
+  }
+}
+
+.icon {
+  font-size: 0.8rem;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background: white;
+  color: $color-secondary-medium;
+  border-radius: 16px;
+  margin-top: 4px;
+  min-width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.option {
+  padding: 10px 16px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba($color-secondary-medium, 0.1);
+  }
+}

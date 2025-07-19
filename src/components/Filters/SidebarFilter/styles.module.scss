@@ -1,0 +1,62 @@
+.sidebar {
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  margin: 16px;
+  max-width: 314px;
+  padding: 16px;
+  width: 100%;
+}
+
+h3 {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: $weight-bold;
+  margin-bottom: 6px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid $color-neutral-light;
+  color: $color-text-dark;
+  cursor: pointer;
+  padding: 6px 0;
+
+  &:hover {
+    background-color: rgba($color-secondary-medium, 0.1);
+  }
+}
+
+.active {
+  color: $color-secondary-medium;
+  font-weight: $weight-bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.applyButton {
+  background-color: $color-secondary-medium;
+  border-radius: 42px;
+  color: $color-neutral-lightest;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
