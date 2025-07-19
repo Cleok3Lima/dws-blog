@@ -42,7 +42,7 @@ export const PostCard = ({ post }: PostCardProps) => {
           <span className={styles.dot} />
           <span className={styles.author}>
             {lastName ? lastName : firstName}
-            {/* Eu tinha entendido q era para aparecer apenas o ultimo nome do autor, mas preferi fazer uma logica pra caso so viesse um nome aparecer este nome. Porém depois percebi que era para aparecer o nome completo mas ja tinha feito um utils e resolvi deixar assim, claro que em um cenário de trabalho iria remover o que já tinha feito, mas para efeito de teste resolvi deixar. */}
+            {/* Eu tinha entendido q era para aparecer apenas o ultimo nome do autor, mas preferi fazer uma logica pra caso so viesse um nome aparecer este nome. Porém depois percebi que era para aparecer o nome completo mas ja tinha feito um utils e resolvi deixar assim, claro que em um cenário de trabalho iria remover o que já tinha feito, mas para fins de teste resolvi deixar. */}
           </span>
         </div>
         <h3 className={styles.title}>{title}</h3>
